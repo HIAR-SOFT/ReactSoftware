@@ -1,69 +1,114 @@
-# ReactSoftware
- 
-# Expanded User Stories And Tasks
-1. User Stories
+# Student-parent-control-system
 
-User Story: As a parent, I want to view my child's attendance records to ensure they are attending classes.
-Subtasks
-Load the student's attendance data into the system
-Create a user-friendly display interface for parents
-Notify parents about irregularities in attendance
-
-Tasks:
-Load attendance data: 3 points
-Display data: 4 points
+ Table of contents:
+ 0) Introduction
+ 1) Tech stack
+ 2) Installation instructions
+ 3) User gude
+ 4) Features
+ 5) Team members
 
 
-User Story:As a parent, I want to see the projects my child has completed for better academic tracking
+# Introduction
+The project is designed in order to provide parents a free access to their childrens school-life information. It suppose to increase open communication between students and parents, prevent law physical and emotional states of students, improve students studying invironment and keep parents informed about students issues so they could provide financial and psychological help. Student-parent-control-system is stable, has a user friendly interface and easy to integrate. 
+thus, it can be freely used in any adducation institution.
 
-Subtasks
+This documentation will be focused on development planning and code structure of Student=parent-control-system.
 
-Teachers should mark completed projects in the system.
-Create a list view of projects for parents.
+# Tech stack
+Frontend:
+-react application using java script programming language with the vite@6.1.1 as a helping tool, 
+-axios (for making HTTP requests to the backend),
+-css (styling)
 
+Backend:  
+-express js (web framework fore node js)
+-node js (Backend runtime environment)
 
-Tasks:
-
-Mark projects: 3 points
-List projects: 3 points
-
-User Story: As a parent, I want to know which subjects my child is struggling with to provide help.
-Subtasks
-
-Analyze student grades and missing areas.
-Display a summary of weak subjects.
-
-Tasks
-Analyze grades: 4 points
-Identify weak subjects: 4 points
-
-User Story: As a parent, I want to view my child's academic calendar to plan ahead.
-Subtasks:
-
-Upload the academic calendar to the system.
-
-Tasks:
-Upload calendar: 3 points
+Database: MondoDB
 
 
-3. Tasks with Points
+# Installation instructions
 
-Authentification: 7 points
+//Node.js should have version 16 or higher
+//MongoDB should have version 8.0 or higher
 
-Load attendance data: 3 points
+Steps:
 
-Display attendance data: 4 points
+1. Clone the Repository
 
-Mark completed projects: 3 points
+git clone <repository_url>
+cd Parent-Dashboard-System
 
-Analyze grades: 4 points
+2. Install Dependencies
 
-Identify weak subjects: 4 points
+Frontend:
 
-Upload academic calendar: 3 points
+npm install
 
-Display calendar interactively: 4 points
+Backend:
 
-Total: 32 points
+cd server
+npm install
 
-# Development plan
+3. Start MongoDB
+
+Make sure MongoDB is running locally
+
+Seed the Database
+
+cd scripts
+node seed.js
+
+4. Run the Frontend
+
+npm run dev
+
+5. Run the Server
+
+cd server
+node server.js
+
+# User guide
+
+1. open http://localhost:3000 in a browser
+
+2. enter student id from your database to log in
+
+3. navigate through the dashboard using buttons of sidebar
+
+# Features
+1, Login System
+
+Parents can log in using their clildrens student id
+
+Error handling for invalid student id
+
+2. Parent Dashboard
+
+Displays the student’s name
+
+Provides information:
+
+-attendance Records
+
+-grades 
+
+-completed Projects
+
+-academic calendar
+
+3. Navigation
+
+Sidebar navigation to switch between different sections (Home, Attendance, Grades, ...)
+
+4. Responsive design
+
+User-friendly and responsive interface styled with CSS
+
+# team members
+Darya Babuchenka B2405090230
+Miray Uzunoğlu B2405.090169
+Kerim Can Erdal B2405.090097
+Mehmet Kagan Hayirli B2305.090234
+

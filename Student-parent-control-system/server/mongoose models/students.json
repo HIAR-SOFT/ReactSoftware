@@ -1,0 +1,150 @@
+[
+    {
+      "studentId": "12345",
+      "name": "Darya Babuchenka",
+      "attendance": [
+        { "date": "2024-01-01", "status": "Absent" },
+        { "date": "2024-01-02", "status": "Absent" }],
+      "projects": [
+        { "title": "Math Project", "status": "Completed" },
+        { "title": "Chemistry Research", "status": "Pending" } ],
+      "grades": [
+        { "subject": "Math", "grade": 85 },
+        { "subject": "Chemistry", "grade": 8 }]
+    },
+    {
+      "studentId": "12346",
+      "name": "Levent Gunes",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Absent" },
+        { "date": "2024-12-02", "status": "Absent" }],
+      "projects": [
+        { "title": "Math Project", "status": "Completed" },
+        { "title": "Science project", "status": "Pending" }],
+      "grades": [
+        { "subject": "Math", "grade": 85 },
+        { "subject": "Science", "grade": 78 }]
+    },
+    {
+      "studentId": "12347",
+      "name": "Mikita Machov",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Absent" },
+        { "date": "2024-12-02", "status": "Absent" }],
+      "projects": [
+        { "title": "Physics assignment", "status": "Completed" },
+        { "title": "Solution presentation", "status": "Completed" }],
+      "grades": [
+        { "subject": "Physics", "grade": 92 },
+        { "subject": "Math", "grade": 89 }]
+    },
+    {
+      "studentId": "12348",
+      "name": "Taylan Ertugrul",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Absent" },
+        { "date": "2024-12-02", "status": "Present" }],
+      "projects": [
+        { "title": "English Essay", "status": "Completed" },
+        { "title": "Biology Report", "status": "Pending" }],
+      "grades": [
+        { "subject": "English", "grade": 88 },
+        { "subject": "Biology", "grade": 72 }]},
+    {
+      "studentId": "12349",
+      "name": "Huney Bunny",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Present" },
+        { "date": "2024-12-02", "status": "Present" }],
+      "projects": [
+        { "title": "Geography Map", "status": "Completed" },
+        { "title": "Math Quiz", "status": "Completed" }],
+      "grades": [
+        { "subject": "Geography", "grade": 90 },
+        { "subject": "Math", "grade": 95 }]
+    },
+    {
+      "studentId": "12355",
+      "name": "Ferhat Ucar",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Present" },
+        { "date": "2024-12-02", "status": "Absent" }
+      ],
+      "projects": [
+        { "title": "Science Experiment", "status": "Completed" },
+        { "title": "History Poster", "status": "Pending" }
+      ],
+      "grades": [
+        { "subject": "Science", "grade": 87 },
+        { "subject": "History", "grade": 41 }]},
+    {
+      "studentId": "12356",
+      "name": "Daniel Davidov",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Absent" },
+        { "date": "2024-12-02", "status": "Present" }
+      ],
+      "projects": [
+        { "title": "Music Composition", "status": "Completed" },
+        { "title": "Art Sketch", "status": "Pending" }
+      ],
+      "grades": [
+        { "subject": "Music", "grade": 93 },
+        { "subject": "Art", "grade": 89 }]
+    },
+    {
+      "studentId": "12357",
+      "name": "Jeff Strongmen",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Present" },
+        { "date": "2024-12-02", "status": "Absent" }
+      ],
+      "projects": [
+        { "title": "Programming Assignment", "status": "Completed" },
+        { "title": "Physics Lab Report", "status": "Pending" }
+      ],
+      "grades": [
+        { "subject": "Programming", "grade": 96 },
+        { "subject": "Physics", "grade": 82}]
+    },
+    {
+      "studentId": "12358",
+      "name": "",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Present" },
+        { "date": "2025-01-02", "status": "Present"} ],
+      "projects": [
+        { "title": "Chemistry Lab", "status": "Completed" },
+        { "title": "Math quiz", "status": "Completed" } ],
+      "grades": [
+        { "subject": "Chemistry", "grade": 88 },
+        { "subject": "Math", "grade": 91 }]
+    },
+    {
+      "studentId": "12359",
+      "name": "Sigma Boy",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Absent" },
+        { "date": "2024-12-03", "status": "Present" }],
+      "projects": [
+        { "title": "Physics Quiz", "status": "Completed" },
+        { "title": "History presentation", "status": "Pending" } ],
+      "grades": [
+        { "subject": "Physics", "grade": 0 },
+        { "subject": "History", "grade": 0 } ]
+    },
+    {
+      "studentId": "12366",
+      "name": "Amadey Mozart",
+      "attendance": [
+        { "date": "2024-12-01", "status": "Present" },
+        { "date": "2024-12-02", "status": "Present" }],
+      "projects": [
+        { "title": "Literature Review", "status":"Completed" },
+        { "title": "Music performance", "status":"Pending" }],
+      "grades": [
+        { "subject": "Literature", "grade": 92 },
+        { "subject": "Art", "grade": 89 }]
+    }
+  ]
+  
